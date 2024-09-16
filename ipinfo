@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl -s 'https://ipinfo.io' |
+	jq -r '.'
